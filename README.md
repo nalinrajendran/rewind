@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-
-
->>>>>>> origin/master
 ## SDE REBUILDING PROJECT
 
 - This code snippet is responsible for setting up the project.
@@ -11,11 +6,16 @@
 
 - 1.  Run `npm i` in both the server and cli directories to install the required dependencies.
 
-- 2.  Set up the MongoDB URI by replacing the placeholder values in the following format:
+- 2. RUN 'npm run dev' in client, RUN 'node server.js' in server
+
+- 3.  Set up the MongoDB URI by replacing the placeholder values in the following format:
 - `mongodb+srv://sde_project:UBDfGrzq8LJNBrOF@cluster0.yrxkwf7.mongodb.net/?retryWrites=true&w=majority`
 
-- 3.  Once the setup is complete, you can proceed with running the project.
-<<<<<<< HEAD
-=======
+- 4.  Once the setup is complete, you can proceed with running the project.
 
->>>>>>> origin/master
+#### MAIN PENDING TASKS:
+
+- Remove fees structures
+- Alter CRON Job from fees to tasks reminder
+- Schema alteration
+- Add evaluation routes
