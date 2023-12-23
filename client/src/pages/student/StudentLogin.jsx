@@ -61,7 +61,7 @@ const StudentLogin = () => {
               alt=""
               className="h-[40px] md:w-[40px] md:h-auto"
             />
-            <h1 className="text-xl">ieducate</h1>
+            <h1 className="text-xl">Study Sync</h1>
           </div>
           <p className="mt-[10px] md:mt-[60px] text-center text-[16px] md:text-[28px]">
             Login to your account
