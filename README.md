@@ -15,7 +15,7 @@
 
 #### MAIN PENDING TASKS:
 
-- Remove fees structures
+- Remove fees structures [REMOVED from frontend, change in schema required(create-student,DB)]
 - Alter CRON Job from fees to tasks reminder
 - Schema alteration
 - Add evaluation routes

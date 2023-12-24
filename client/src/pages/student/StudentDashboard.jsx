@@ -69,13 +69,13 @@ const StudentDashboard = () => {
   useEffect(() => {
     if (user) {
       getAnnouncements();
-      getActiveInvoice(user?.id);
+      // getActiveInvoice(user?.id);
       getRecentTermsReport(user?.id);
       getRecentClassActivity(user?.id);
     }
   }, [user]);
 
-  return (
+return (
     <div className="md:pt-[32px] px-[15px] pb-[25px] md:pl-[48px] md:pr-[34px] h-full flex flex-col mb-[50px]">
       <h1 className="hidden md:block text-[30px] font-semibold">Dashboard</h1>
 
@@ -90,7 +90,10 @@ const StudentDashboard = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 h-full md:grid-rows-2 md:flex-row gap-[26px] mt-[26px]">
-            <div className="bg-white w-full px-[24px] py-[17px] rounded-[20px]">
+
+{/* REMOVED INVOICE REMINDER */}
+            {/* <div className="bg-white w-full px-[24px] py-[17px] rounded-[20px]">
+              
               <h1 className="text-[18px] font-medium">Payment Reminder</h1>
               <div className="h-[1px] w-full bg-[#E9EBEC] my-4"></div>
               {activeInvoice && showPaymentReminder ? (
@@ -111,7 +114,9 @@ const StudentDashboard = () => {
               ) : (
                 <p className="text-[14px]">No invoices are due at present</p>
               )}
-            </div>
+            </div> */}
+
+            
             <div className="md:row-span-2 bg-white w-full px-[24px] py-[17px] rounded-[20px]">
               <div className="flex items-center justify-between gap-2 flex-wrap">
                 <h1 className="text-[18px] font-medium">

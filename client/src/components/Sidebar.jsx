@@ -33,7 +33,7 @@ const adminItems = [
   getItem('Admin Management', 'admins', <UserOutlined />),
   getItem('Teacher Management', 'teachers', <TeamOutlined />),
   getItem('Student Management', 'students', <TeamOutlined />),
-  getItem('Fees / Billing', 'fees-billings', <PoundOutlined />),
+  // getItem('Fees / Billing', 'fees-billings', <PoundOutlined />),
   getItem('Teachers Attendance', 'teachers-attendance', <CalendarOutlined />),
   getItem('Announcements', 'announcements', <SolutionOutlined />),
 ];
@@ -50,7 +50,7 @@ const studentItems = [
   getItem('Announcements', 'announcements', <SolutionOutlined />),
   getItem('Class Activity', 'class-activity', <GroupOutlined />),
   getItem('Terms Report', 'terms-report', <FileOutlined />),
-  getItem('Invoices', 'invoices', <PoundOutlined />),
+  // getItem('Invoices', 'invoices', <PoundOutlined />),
   getItem('Profile Setting', 'setting', <SettingOutlined />),
 ];
 

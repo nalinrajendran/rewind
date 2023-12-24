@@ -28,7 +28,7 @@ const studentItems = [
   getItem('Announcements', 'announcements', <SolutionOutlined />),
   getItem('Class Activity', 'class-activity', <GroupOutlined />),
   getItem('Term Reports', 'term-reports', <FileOutlined />),
-  getItem('Invoices', 'invoices', <PoundOutlined />),
+  // getItem('Invoices', 'invoices', <PoundOutlined />),
   getItem('Profile Setting', 'setting', <SettingOutlined />),
 ];
 
