@@ -79,7 +79,7 @@ const SendAnnouncement = () => {
       <div className="bg-white p-8 rounded-lg">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-[24px]">Send Announcement</h1>
+            <h1 className="text-[24px]">Personal Announcement</h1>
             <p className="text-[13px]">
               Send announcements to particular students
             </p>

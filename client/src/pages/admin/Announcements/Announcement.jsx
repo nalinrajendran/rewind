@@ -72,7 +72,7 @@ const Announcements = () => {
             </Link>
             <Link to="/admin/dashboard/announcements/send">
               <MainButton
-                text="Send Announcement"
+                text="Personal Announcement"
                 className="py-4"
                 textClass="text-[15px]"
               />
