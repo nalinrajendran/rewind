@@ -13,6 +13,10 @@
 
 - 4.  Once the setup is complete, you can proceed with running the project.
 
+### ISSUES:
+
+- CREATING MORETHAN 1 USER IS THROWING ERROR
+
 #### MAIN PENDING TASKS:
 
 - Remove fees structures [REMOVED from frontend, change in schema required(create-student,DB)]
