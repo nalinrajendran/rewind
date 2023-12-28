@@ -20,7 +20,7 @@ function DemoPanel() {
       </div>
       <div className="bg-white shadow-md w-full max-w-[500px] rounded-lg px-5 pb-7 pt-9">
         <h1 className="text-[28px] font-bold leading-[25px] relative w-max">
-          Welcome to iEducate
+          Welcome to StudySync
         </h1>
         <p className="text-[16px] mt-3">
           This is the Demo Panel to login to different roles
