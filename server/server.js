@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
 // API SETUP
 app.get('/api', (req, res) => {
   res.status(200).json({
-    api: 'iEDUCATE API V1',
+    api: 'studysync API V1',
   });
 });
 

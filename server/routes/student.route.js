@@ -36,10 +36,16 @@ router.post('/students', verifyToken, createStudent);
 router.get('/students', verifyToken, getStudents);
 router.put('/students/update/:id', verifyToken, updateStudent);
 router.delete('/students/delete/:id', verifyToken, deleteStudent);
+
+//TO BE REMOVED
 router.get('/students/invoices/:student_id', verifyToken, getStudentInvoices);
+
 router.patch('/students/change-password', verifyToken, changeStudentPassword);
+
 router.get('/students/export-to-csv', verifyToken, exportStudentsToCSV);
+//TO BE REMOVED
 router.post('/students/issue-invoice', verifyToken, studentIssueInvoice);
+
 router.get('/students/:id/reports', verifyToken, getStudentReports);
 router.put('/students/assign-teacher', verifyToken, assignTeacherToStudent);
 router.get('/students/:id', verifyToken, getStudent);
